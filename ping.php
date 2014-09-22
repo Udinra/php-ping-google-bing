@@ -32,9 +32,9 @@ $search_response = wp_remote_get( $ping_url );
 //check the ping status
 if($Search_response['response']['code']=200)
 {
-  echo "Pinged Google Successfully";
+  echo "Pinged Bing Successfully";
 }
 else 
 {
-  echo "Failed to ping Google.";
+  echo "Failed to ping Bing.";
 }
